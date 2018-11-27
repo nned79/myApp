@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list padding-bottom>
+
+    <ion-item>
+      <ion-label fixed>Username</ion-label>
+      <ion-input type="text" value="" placeholder="......."></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label fixed>Password</ion-label>
+        <ion-input type="password"  placeholder="......."></ion-input>
+    </ion-item>
+
+  </ion-list>
+  <button ion-button block (click)="doPrompt()" >Login</button>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="signup">  <ion-icon name="log-in"></ion-icon>Sign Up</ion-col>
+      <ion-col class="contactus"> <ion-icon name="contact"></ion-icon>Contact Us</ion-col>
+    </ion-row>
+  </ion-grid>
+<p></p>
+  <button ion-button block color="primary">Default/primary</button>
+  <button ion-button block color="secondary">Secondary</button>
+  <button ion-button block color="danger">Danger</button>
+  <button ion-button block color="light">Light</button>
+  <button ion-button block color="dark">Dark</button>
+  <button ion-button block color="custom">Custom</button>
+  
+  <h2>Welcome to Ionic!</h2>
+  <p>
+    This starter project comes with simple tabs-based layout for apps
+    that are going to primarily use a Tabbed UI.
+  </p>
+  <p>
+    Take a look at the <code>src/pages/</code> directory to add or change tabs,
+    update any existing page or create new pages.
+  </p>
+</ion-content>
